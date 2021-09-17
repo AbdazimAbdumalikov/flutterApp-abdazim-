@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "418906997075",
+    "project_id": "abdazim-ff698",
+    "storage_bucket": "abdazim-ff698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418906997075:android:b3c4d26883d533530121a6",
+        "android_client_info": {
+          "package_name": "kz.abdazim.flutter_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418906997075-etgtub5j1tda1sbj92ui5m6afm2p28rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqb4j3PefY2ER8Gpwc5Wo-NC23XQBHqps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418906997075-etgtub5j1tda1sbj92ui5m6afm2p28rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
