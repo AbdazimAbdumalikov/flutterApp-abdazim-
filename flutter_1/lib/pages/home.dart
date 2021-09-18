@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 class Home extends StatefulWidget {
 
@@ -11,9 +13,16 @@ class _HomeState extends State<Home> {
   late String userToDo;
   List todoList = [];
 
+  void initFirebase() async{
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp();
+  }
+
   @override
   void initState() {
     super.initState();
+
+    initFirebase();
 
     todoList.addAll(['Купить воду', 'Сделать домашку', 'Играть Cs go', 'Ложиться спать']);
   }
